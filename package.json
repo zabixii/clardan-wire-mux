@@ -28,7 +28,7 @@
   "homepage": "https://clardan.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clardan/clardan-wire-mux.git"
+    "url": "https://github.com/zabixii/clardan-wire-mux.git"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
