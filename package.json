@@ -1,0 +1,40 @@
+{
+  "name": "@clardan/wire-mux",
+  "version": "0.4.1",
+  "description": "Low-overhead stream demultiplexer, circular ring-buffer telemetry probe, and zero-copy JSON-RPC 2.0 framing layer for Model Context Protocol (MCP) transports.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/*.js",
+    "bench": "node dist/benchmarks/throughput.js"
+  },
+  "keywords": [
+    "model-context-protocol",
+    "mcp",
+    "json-rpc",
+    "stream-demux",
+    "ring-buffer",
+    "stdio-tap",
+    "zero-copy",
+    "clardan",
+    "claude-desktop",
+    "ai-agents",
+    "telemetry"
+  ],
+  "author": "Clardan Technologies <contact@clardan.com>",
+  "license": "MIT",
+  "homepage": "https://clardan.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clardan/clardan-wire-mux.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
